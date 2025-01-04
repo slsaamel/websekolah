@@ -12,7 +12,7 @@
       <!-- Kegiatan 2 -->
       <div class="col-md-2 col-sm-6 mb-4">
         <div class="card shadow-lg">
-          <img src="/assets/miror.jpg" alt="Kegiatan 2" class="card-img-top" />
+          <img src="assets/miror.jpg" alt="Kegiatan 2" class="card-img-top" />
         </div>
       </div>
 
@@ -40,14 +40,14 @@
       <!-- Kegiatan 6 -->
       <div class="col-md-2 col-sm-6 mb-4">
         <div class="card shadow-lg">
-          <img src="assets/TKJ.jpg" alt="Kegiatan 6" class="card-img-top" />
+          <img src="assets/rpl3.jpg" alt="Kegiatan 6" class="card-img-top" />
         </div>
       </div>
     
       </div>
       <div class="col-md-2 col-sm-6 mb-4">
         <div class="card shadow-lg">
-          <img src="assets/TBSM.jpg" alt="Kegiatan 6" class="card-img-top" />
+          <img src="assets/miror.jpg" alt="Kegiatan 6" class="card-img-top" />
         </div>
       </div>
 

@@ -108,12 +108,12 @@
 
 .breadcrumb {
   font-size: 14px;
-  color: gray;
+  color: rgb(18, 93, 136);
   margin-bottom: 20px;
 }
 
 .content {
-  background-color: #f9f9f9;
+  background-color: #176faa;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);

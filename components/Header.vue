@@ -1,14 +1,21 @@
 <template>
   <div>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <nav class="navbar navbar-expand-lg bg-info">
       <div class="container-fluid">
         <a class="navbar-brand d-flex align-items-center" href="#">
-          <img src="/assets/img.jpeg"alt="Logo" width="50" class="me-3" />
+          <img src="/assets/img.jpeg" alt="Logo" width="50" class="me-3" />
           <span class="fw-bold">SMK Negeri 4 Tasikmalaya</span>
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -17,15 +24,27 @@
               <a class="nav-link active" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="berita">Berita</a>
+              <a class="nav-link active" aria-current="page" href="berita"
+                >Berita</a
+              >
             </li>
-
 
             <!-- Dropdown Profil -->
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="/propil"id="navbarDropdownEkskul" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">Profile</a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownProfil" id="navbarDropdownProfil">
+              <a
+                class="nav-link dropdown-toggle"
+                href="/propil"
+                id="navbarDropdownEkskul"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Profile</a
+              >
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownProfil"
+                id="navbarDropdownProfil"
+              >
                 <li>
                   <nuxt-link to="/propil/sejarah" class="dropdown-item">
                     Sejarah
@@ -43,22 +62,32 @@
                 </li>
               </ul>
             </li>
-            <!-- Dropdown kurikulum -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="kurikulum" id="navbarDropdownEkskul" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Kurikulum
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownEkskul" id="navbarDropdownEkskul">
-                <li><a class="dropdown-item" href="kurikulum/Kompetensi-Keahlian">Kompetensi Keahlian</a></li>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownEkskul"
+                id="navbarDropdownEkskul"
+              >
+                <li>
+                  <a class="dropdown-item" href="kurikulum/Kompetensi-Keahlian"
+                    >Kompetensi Keahlian</a
+                  >
+                </li>
                 <!-- Tambahkan ekstrakurikuler lainnya sesuai kebutuhan -->
               </ul>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="ekstrakulikuler"
+                >Ekstrakurikuler</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="Ekstrakurikuler">Ekstrakurikuler</a>
+              <a class="nav-link active" aria-current="page" href="Galeri"
+                >Galeri</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="Galeri">Galeri</a>
+              <a class="nav-link active" aria-current="page" href="biodata"
+                >Biodata</a
+              >
             </li>
           </ul>
         </div>
@@ -68,10 +97,11 @@
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
 
 <style scoped>
+
 marquee {
   font-size: 14px;
 }
